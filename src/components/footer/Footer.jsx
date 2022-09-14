@@ -2,7 +2,6 @@ import React from 'react'
 import './footer.css'
 import {BsGithub} from 'react-icons/bs'
 import {BsLinkedin} from 'react-icons/bs'
-// import {IoLogoTwitter} from 'react-icons/io'
 
 const Footer = () => {
   return (
@@ -15,14 +14,12 @@ const Footer = () => {
         <li><a href="#experience">Experience</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-        {/* <li><a href="#testimonials">Testimonials</a></li> */}
         <li><a href="#contact">Contact</a></li>
       </ul>
 
       <div className="footer__socials">
         <a href="https://github.com/vjtovar"><BsGithub/></a>
-        <a href="https://linkedin.com/in/valerie-tovar-167886106"><BsLinkedin/></a>
-        {/* <a href="https://twitter.com"><IoLogoTwitter/></a> */}
+        <a href="https://linkedin.com/in/valerie-j-tovar"><BsLinkedin/></a>
       </div>
 
       <div className="footer__copyright">
